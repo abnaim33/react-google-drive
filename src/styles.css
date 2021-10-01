@@ -1,0 +1,298 @@
+
+.home_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:.5rem .8rem;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+flex:.2;
+
+}
+.header_logo img{
+width:35px;
+height:35px;
+
+}
+.header_logo h2{
+    color:gray;
+    font-weight: 500;
+    margin-left: .5rem;
+}
+
+.header_search{
+    flex:.6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f1f3f4;
+    padding:.5rem 1.5rem;
+    border-radius: .5rem;
+    
+}
+
+.header_search input{
+   width: 100%;
+    border:none;
+    outline: none;
+    padding:.5rem;
+    background: transparent;
+    font-size: 1rem;
+}
+
+.header_options{
+    flex:.2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3rem;
+}
+
+.google{
+    margin-left: 2rem;
+}
+
+/* header part end */
+
+
+/* sidebar part :start */
+.sidebar{
+    flex:.2;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar_btn button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 999px;
+    background: white;
+    border:none;
+    box-shadow: 0.3em 0.3em .5em rgba(0,0,0,0.3);;
+    color:gray;
+    width:7rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.sidebar_options{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+  
+}
+.sidebar_options div{
+    width: 250px;
+    display: flex;
+    align-items: center;
+   cursor: pointer;
+    padding:.5rem 1rem;
+    border-radius:0 999px 999px 0;
+    color:gray;
+
+}
+
+.sidebar_options div:hover{
+    background: whitesmoke;
+}
+
+.sidebar_options div h5{
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.usedStorage{
+    margin-left: 1rem;
+}
+
+.usedStorage p{
+    width:200px;
+    margin-top: .3rem;
+    padding: 1rem;
+    border-top: 2px solid gray;
+}
+
+.storage{
+    display: flex;
+    width:150px;
+    padding:.5rem 0;
+    margin-left: 1rem;
+    color: gray;
+}
+.storage p{
+    margin-left: 2rem;
+}
+
+.sidebar_bottom button{
+    border:1px solid lightgray;
+    padding:.8rem 1rem;
+    margin-left: 1.4rem;
+    color:rgb(39, 91, 236);
+    background: white;
+    font-size: .9rem;
+}
+
+
+/* sidebar :end */
+
+/* home :start */
+
+.home{
+    flex: 0.8;
+}
+.home_header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid lightgray;
+    padding:1rem
+}
+.home_headerLeft{
+    display: flex;
+    align-items: center;
+}
+.home_headerRight{
+    display: flex;
+    align-items: center;
+}
+
+.home_grid{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: auto;
+
+  
+}
+.home_file{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid whitesmoke;
+    margin: 10px ;
+    min-width: 200px;
+    height: 150px;
+    padding: 10px 0 0 0;
+    border-radius: 5px;
+}
+.home_file p{
+    width:100%
+}
+
+.home_file svg{
+    font-size: 60px;
+    color:gray;
+    cursor: pointer;
+}
+
+.home_file p{
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 12px;
+    background: whitesmoke;
+    padding: 10px 0;
+}
+
+.detailsRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    padding-right: 3rem;
+}
+.detailsRow p{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    flex:0.25
+}
+.detailsRow p b{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_container{
+    width:400px;
+    height:400px;
+    background: white;
+    margin: auto;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 150px;
+}
+.submit_btn{
+    padding:.8rem 1rem;
+    background: rgb(5, 98, 219);
+    width: 200px;
+    border:none;
+    outline:none;
+    color:white;
+    cursor: pointer;
+    border-radius: .4rem;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container{
+    width:400px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.login button{
+    background: rgb(66, 66, 233);
+    color:white;
+    border:none;
+    outline:none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.login img{
+    width: 300px;
+    height: 200px;
+}
